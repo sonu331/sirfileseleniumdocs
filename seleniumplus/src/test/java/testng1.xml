@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Test1">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="seleniumplus.Test5" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
